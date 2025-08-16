@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.hero {
+  background-color: #ff4c68;
+  color: white;
+  padding: 40px 0;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.text h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn.black {
+  background-color: black;
+  color: white;
+}
+
+.btn.white {
+  border: 2px solid white;
+  color: white;
+}
+
+.image img {
+  max-width: 300px;
+  transform: rotate(20deg);
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 50px 10%;
+  background-color: white;
+}
+
+.feature {
+  max-width: 300px;
+}
+
+.icon {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+
+.pricing {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.pricing h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.pricing p {
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 300px;
+}
+
+.card h2 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.btn-outline, .btn-solid {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #ff4c68;
+  background: none;
+  color: #ff4c68;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.btn-solid {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.true {
+  background-color: #e95460;
+  color: white;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+}
+
+.foo i {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.foo a {
+  color: white;
+  text-decoration: underline;
+}
